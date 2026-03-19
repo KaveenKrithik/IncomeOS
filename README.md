@@ -1,202 +1,104 @@
 # IncomeOS
 
-### Adaptive Income Intelligence System
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/hero.png" width="800" />
+  
+  <br />
+  
+  <h3>ADAPTIVE INCOME INTELLIGENCE</h3>
+  <p><strong>Predict. Prevent. Stabilize.</strong></p>
+  
+  <p align="center">
+    <a href="#-the-problem">Problem</a> • 
+    <a href="#-workflow">Workflow</a> • 
+    <a href="#-intelligence">AI Layer</a> • 
+    <a href="#-stability-wallet">Wallet</a>
+  </p>
+  
+  <hr />
+  <br />
+</div>
 
-**IncomeOS predicts, prevents, and stabilizes gig worker income in real time.**
-
----
-
-![IncomeOS Hero](/public/screenshots/hero.png)
-
----
-
-## 1. The Problem
-
-**Income Instability**
-Gig economy workers face extreme volatility. Earnings are not guaranteed. Every hour is a gamble against variables outside their control.
-
-**External Disruptions**
-Weather patterns, sudden city-wide curfews, demand drops, or local outages can wipe out a day's livelihood. There is no fallback.
-
-**Protection Gap**
-Traditional insurance is slow, reactive, and built for fixed jobs. It fails to address the micro-realities of a delivery partner or driver who needs stability NOW, not in 30 days.
-
----
-
-## 2. The Shift in Thinking
-
-**From Reactive to Predictive**
-Traditional systems wait for a loss to happen. IncomeOS identifies the risk before it manifest. We don't just insure; we stabilize the system itself.
-
-**Income as a Controllable System**
-We treat a worker’s daily run as a data-driven operation. By viewing income through the lens of a **Digital Twin**, we transform unpredictable risk into a managed, intelligent flow.
+> [!IMPORTANT]
+> **SYSTEM STATUS: OPTIMIZING**
+> The Intelligence Engine is currently simulating 4.2k active geofences in the Chennai-Bangalore corridor.
 
 ---
 
-## 3. Persona Definition
+## 1. ⚡ The Shift in Thinking
 
-### **Ravi | Delivery Partner | Chennai**
+Traditional systems are reactive. They wait for a loss, then process a claim. **IncomeOS is predictive.** We don't just calculate risk; we actively mitigate it before it happens.
 
+| FEATURE | TRADITIONAL | INCOMEOS |
+| :--- | :--- | :--- |
+| **Logic** | Reactive (Loss-based) | Predictive (Data-based) |
+| **Speed** | 3 - 30 Days Payout | Instant Parametric Trigger |
+| **Intelligence** | None | Real-time Digital Twin Simulation |
+| **Goal** | Compensation | Prevention + Stability |
+
+---
+
+## 2. 🗺️ Workforce Intelligence
+
+### **RAVI | DELIVERY PARTNER | CHENNAI S3**
 Ravi navigates one of the most volatile urban climates. Heatwaves and monsoons directly dictate his survival.
 
-**Scenario A: Rainfall Disruption**
-*   **Context**: Heavy rain predicted at 2 PM in Central Zone.
-*   **Predicted Income**: ₹800 (12 PM - 4 PM).
-*   **Actual Outcome**: Road waterlogging. Ravi stops for safety.
-*   **IncomeOS Response**: Parametric trigger detects rain threshold. Stablizer auto-compensates ₹240 gap instantly to his wallet.
+<details open>
+<summary><b>PROTOCOL: RAINFALL DETECTED</b></summary>
+<br />
+Trigger: >5mm/hr in Central Zone. Ravi stops for safety. Stablizer auto-compensates ₹240 gap instantly to his wallet.
+</details>
 
-**Scenario B: Heatwave Protocol**
-*   **Context**: Temperature exceeds 42°C. Productivity drops by 30%.
-*   **Expected Outcome**: Ravi risks health or loses target.
-*   **IncomeOS Response**: AI suggests "Shaded Hub" zones with high demand. If productivity still drops, IncomeOS activates "Heat Shield" coverage to maintain his hourly baseline.
+<details>
+<summary><b>PROTOCOL: HEATWAVE INDEX</b></summary>
+<br />
+Trigger: Temperature >42°C. Productivity drops. Shift recommendation pushed to Ravi for shaded "Profit Clusters".
+</details>
 
 ---
 
-## 4. System Workflow
+## 3. 🌀 System Workflow
 
-**Digital Flow Infrastructure**
-
-```
-USER ONBOARDING
-  ↓
-INCOME LEARNING (Baseline Creation)
-  ↓
-RISK MONITORING (Weather + Demand + System)
-  ↓
-PREDICTION (Earnings Simulation)
-  ↓
-PREVENTIVE SUGGESTIONS (Zone Navigation)
-  ↓
-DISRUPTION DETECTION (Parametric Trigger)
-  ↓
-SMART COMPENSATION (Instant Payout)
-  ↓
-WEEKLY STABILIZATION
+```mermaid
+graph TD;
+    A[USER ONBOARDING] --> B[DIGITAL TWIN LEARNING];
+    B --> C[REAL-TIME MONITORING];
+    C --> D{DISRUPTION?};
+    D -- NO --> E[NORMAL STABILIZATION];
+    D -- YES --> F[PARAMETRIC TRIGGER];
+    F --> G[INSTANT WALLET PAYOUT];
+    G --> H[WEEKLY GOAL SYNC];
 ```
 
 ---
 
-## 5. Weekly Premium Model
+## 4. 🧠 Core Engines
 
-**Dynamic Stability Subscription**
-IncomeOS operates on a weekly parametric model. Instead of fixed monthly costs, the subscription is as adaptive as the work.
+### **Predictive Digital Twin**
+![Income Flow Dashboard](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/dashboard.png)
+A real-time shadow simulation of your earning potential. Using historical data and current demand, it calculates exactly what you *should* be earning every minute.
 
-**Base Weekly Premium**
-A minimal entry fee to keep the Intelligence Engine active.
-
-**Dynamic Risk Adjustment**
-*   **Location Risk**: Higher in flood-prone or high-traffic zones.
-*   **Weather Probability**: Adjusted based on 7-day meteorological forecasts.
-*   **Work Patterns**: Lower premiums for workers who follow AI-zone optimizations.
+### **Thermal Heat Mapping**
+![Zone Intelligence](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/intelligence.png)
+Multi-layered model analyzing weather APIs, thermal traffic maps, and historical disruption data to assign a "Stability Score" to every zone in the city.
 
 ---
 
-## 6. Parametric Triggers
-
-**Automated Logic Execution**
-
-**Environmental**
-*   **Rainfall**: >5mm/hr in active geofence.
-*   **Heat Index**: Sustained >40°C.
-*   **Air Quality**: AQI > 300 (Health Safety trigger).
-
-**Behavioral**
-*   **Active Hours Drop**: Deviation from simulation due to external bottlenecks.
-*   **Zone Inactivity**: Validated against regional demand drops.
-
-**System Triggers**
-*   **Demand Volatility**: Sudden drop in platform orders.
-*   **Platform Downtime**: Automated compensation for app outages.
-
----
-
-## 7. AI/ML Integration
-
-![Income Flow Dashboard](/public/screenshots/dashboard.png)
-
-### **Income Digital Twin**
-We maintain a real-time shadow simulation of your earning potential. Using historical data and current demand, it calculates exactly what you *should* be earning every minute.
-
-### **Risk Prediction Engine**
-A multi-layered model analyzing weather APIs, thermal traffic maps, and historical disruption data to assign a "Stability Score" to every zone in the city.
-
-### **Preventive Intelligence**
-Not just a map, but a navigator. It pushes "Maximize Opportunity" notifications before you hit a low-demand slump.
-
-![Zone Intelligence](/public/screenshots/intelligence.png)
-
----
-
-## 8. Fraud Detection System
-
-**System Integrity Protection**
-
-**Geospatial Validation**
-Cross-referencing worker GPS data with active order heatmaps. If a worker is "inactive" but in a zone with high confirmed successful deliveries by others, the trigger is flagged.
-
-**Behavioral Anomaly Detection**
-Pattern analysis to detect "Fake Inactivity" where a worker goes offline intentionally to trigger payouts.
-
-**Cross-Verification**
-Validating environmental triggers (like rain) against a cluster of workers in the same 500m radius.
-
----
-
-## 9. Tech Stack
-
-**Frontend**
-*   **Next.js 15**: Core application framework.
-*   **Tailwind CSS**: High-end cinematic styling.
-*   **Framer Motion**: Fluid HUD-like animations.
-*   **Lucide React**: Minimalist iconography.
-
-**Analytics**
-*   **Recharts**: For the Income Twin Flow visualization.
-
-**Data Infrastructure**
-*   **Weather API Integration**: Real-time atmospheric data.
-*   **Simulated Stream**: Real-time mock data for income and zone shifts.
-
----
-
-## 10. Architecture Overview
-
-**Clean Core System**
+## 5. 🛠️ Tech Architecture
 
 ```
 [ FRONTEND HUD ]
-      ↓
+      ↓  (Framer Motion / Next.js 15)
 [ API GATEWAY ]
-      ↓
-[ INTELLIGENCE LAYER ] ↔ [ AI PREDICTION ENGINE ]
-      ↓
+      ↓  (FastAPI Intelligence Layer)
 [ DATA SYNC ] ↔ [ WEATHER / MAPS / PLATFORMS ]
-      ↓
+      ↓  (Parametric Logic)
 [ STABILIZER WALLET ] 
 ```
 
 ---
 
-## 11. Development Plan
-
-**Phase 1: Foundation (Current)**
-*   Architecture blueprint and Core UI system.
-*   High-end dark dashboard and Income Flow visualization.
-*   Basic parametric logic.
-
-**Phase 2: Integration**
-*   Live weather API hookups.
-*   Dynamic premium calculation engine.
-*   Automated claim triggering system.
-
-**Phase 3: Optimization**
-*   Advanced Fraud detection (GPS cluster analysis).
-*   Instant wallet payouts (UPI/Razorpay integration).
-*   Regional scaling (Multi-city support).
-
----
-
-## 12. Product Differentiation
+## 6. 🚀 Product Philosophy
 
 **Not Insurance. Intelligence.**
 Traditional insurance wants you to fail so they can pay. IncomeOS wants you to succeed so we can stabilize.
@@ -204,15 +106,12 @@ Traditional insurance wants you to fail so they can pay. IncomeOS wants you to s
 **Not Reactive. Predictive.**
 We don't wait for your bank account to hit zero. We see the rain coming and move you—or pay you—before it happens.
 
-**Personalized Micro-Utility.**
-Every worker gets a unique "Stability Profile". No broad strokes.
-
 ---
 
-## 13. Closing Note
-
-**IncomeOS transforms income from uncertainty into a controlled, intelligent system.**
-
----
-
-![Stability Wallet](/public/screenshots/wallet.png)
+<div align="center">
+  <br />
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/wallet.png" width="600" />
+  <p><em>"IncomeOS transforms uncertainty into a controlled, intelligent system."</em></p>
+  <hr />
+  <p>Built with ❤️ for the Gig Economy by Kaveen Krithik</p>
+</div>
