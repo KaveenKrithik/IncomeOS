@@ -1,0 +1,70 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes nodePulse {
+      0% { r: 5; opacity: 1; }
+      100% { r: 15; opacity: 0; }
+    }
+    @keyframes lineFlow {
+      0% { stroke-dashoffset: 100; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .node-circle {
+      fill: #2ac7ff;
+      filter: drop-shadow(0 0 5px #2ac7ff);
+    }
+    .node-pulse {
+      stroke: #2ac7ff;
+      stroke-width: 1;
+      animation: nodePulse 2s infinite ease-out;
+    }
+    .flow-line {
+      stroke: #2ac7ff;
+      stroke-width: 2;
+      stroke-opacity: 0.1;
+      stroke-dasharray: 5 15;
+      animation: lineFlow 3s infinite linear;
+    }
+    .label {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      fill: #ffffff;
+      opacity: 0.4;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <!-- Flow Lines -->
+  <line x1="100" y1="100" x2="250" y2="100" class="flow-line" />
+  <line x1="250" y1="100" x2="400" y2="100" class="flow-line" />
+  <line x1="400" y1="100" x2="550" y2="100" class="flow-line" />
+  <line x1="550" y1="100" x2="700" y2="100" class="flow-line" />
+
+  <!-- Nodes -->
+  <g transform="translate(100, 100)">
+    <circle r="5" class="node-circle" />
+    <circle r="5" class="node-pulse" />
+    <text y="-25" text-anchor="middle" class="label">Onboard</text>
+  </g>
+  <g transform="translate(250, 100)">
+    <circle r="5" class="node-circle" />
+    <circle r="5" class="node-pulse" style="animation-delay: 0.4s" />
+    <text y="-25" text-anchor="middle" class="label">Monitor</text>
+  </g>
+  <g transform="translate(400, 100)">
+    <circle r="5" class="node-circle" style="fill: #8b5cf6;" />
+    <circle r="5" class="node-pulse" style="stroke: #8b5cf6; animation-delay: 0.8s" />
+    <text y="-25" text-anchor="middle" class="label" style="fill: #8b5cf6; opacity: 0.8;">Analyze</text>
+  </g>
+  <g transform="translate(550, 100)">
+    <circle r="5" class="node-circle" />
+    <circle r="5" class="node-pulse" style="animation-delay: 1.2s" />
+    <text y="-25" text-anchor="middle" class="label">Trigger</text>
+  </g>
+  <g transform="translate(700, 100)">
+    <circle r="5" class="node-circle" />
+    <circle r="5" class="node-pulse" style="animation-delay: 1.6s" />
+    <text y="-25" text-anchor="middle" class="label">Stabilize</text>
+  </g>
+</svg>

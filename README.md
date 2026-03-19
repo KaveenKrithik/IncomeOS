@@ -63,16 +63,9 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 ## 3. System Workflow
 
-```mermaid
-graph TD;
-    A[USER ONBOARDING] --> B[DIGITAL TWIN LEARNING];
-    B --> C[REAL-TIME MONITORING];
-    C --> D{DISRUPTION?};
-    D -- NO --> E[NORMAL STABILIZATION];
-    D -- YES --> F[PARAMETRIC TRIGGER];
-    F --> G[INSTANT WALLET PAYOUT];
-    G --> H[WEEKLY GOAL SYNC];
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/workflow.svg" width="800" />
+</div>
 
 ---
 
@@ -97,6 +90,10 @@ Multi-layered model analyzing weather APIs, thermal traffic maps, and historical
 ---
 
 ## 6. Earnings Optimization Index
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/sparkline.svg" width="400" />
+</div>
 
 Our AI-driven stability core (OS Core v1) assigns a **Stability Index** score based on consistency.
 *   **Threshold A (Balanced)**: Higher stability correlates to lower premiums.

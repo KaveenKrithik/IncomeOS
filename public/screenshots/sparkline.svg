@@ -1,0 +1,22 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes spark {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .sparkline {
+      stroke: #2ac7ff;
+      stroke-width: 2;
+      stroke-dasharray: 400;
+      animation: spark 4s infinite ease-in-out;
+    }
+    .dot {
+      fill: #2ac7ff;
+      filter: drop-shadow(0 0 3px #2ac7ff);
+    }
+  </style>
+  <path d="M 0 80 Q 50 20 100 70 T 200 30 T 300 60 T 400 20" class="sparkline" fill="none" />
+  <circle cx="400" cy="20" r="3" class="dot">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
