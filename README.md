@@ -14,8 +14,9 @@
   <p align="center">
     <a href="#inspiration">Inspiration</a> • 
     <a href="#what-it-does">What it does</a> • 
-    <a href="#how-we-built-it">How we built it</a> • 
-    <a href="#challenges-we-ran-into">Challenges</a>
+    <a href="#system-workflow">Workflow</a> • 
+    <a href="#parametric-triggers">Triggers</a> • 
+    <a href="#tech-architecture">Architecture</a>
   </p>
   
   <hr />
@@ -54,7 +55,30 @@ We engineered a HUD-style "Operating System" aesthetic using a high-performance 
 
 ---
 
-## 2. Workforce Intelligence
+## 1. The Problem
+
+**Income Instability**
+Gig economy workers face extreme volatility. Earnings are not guaranteed. Every hour is a gamble against variables outside their control.
+
+**External Disruptions**
+Weather patterns, sudden city-wide curfews, demand drops, or local outages can wipe out a day's livelihood. There is no fallback.
+
+**Protection Gap**
+Traditional insurance is slow, reactive, and built for fixed jobs. It fails to address the micro-realities of a delivery partner who needs stability NOW, not in 30 days.
+
+---
+
+## 2. The Shift in Thinking
+
+**From Reactive to Predictive**
+Traditional systems wait for a loss to happen. IncomeOS identifies the risk before it manifest. We don't just insure; we stabilize the system itself.
+
+**Income as a Controllable System**
+We treat a worker’s daily run as a data-driven operation. By viewing income through the lens of a **Digital Twin**, we transform unpredictable risk into a managed, intelligent flow.
+
+---
+
+## 3. Workforce Intelligence
 
 ### **RAVI | DELIVERY PARTNER | CHENNAI S3**
 Ravi navigates one of the most volatile urban climates. Heatwaves and monsoons directly dictate his survival.
@@ -73,7 +97,7 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 ---
 
-## 3. System Workflow
+## 4. System Workflow
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/workflow.svg" width="800" />
@@ -81,11 +105,74 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 ---
 
-## 4. Core Engines
+## 5. Weekly Premium Model
 
-### **Predictive Digital Twin**
+**Dynamic Stability Subscription**
+IncomeOS operates on a weekly parametric model. Instead of fixed monthly costs, the subscription is as adaptive as the work.
+
+**Base Weekly Premium**
+A minimal entry fee to keep the Intelligence Engine active.
+
+**Dynamic Risk Adjustment**
+*   **Location Risk**: Higher in flood-prone or high-traffic zones.
+*   **Weather Probability**: Adjusted based on 7-day meteorological forecasts.
+*   **Work Patterns**: Lower premiums for workers who follow AI-zone optimizations.
+
+---
+
+## 6. Parametric Triggers
+
+**Automated Logic Execution**
+
+**Environmental**
+*   **Rainfall**: >5mm/hr in active geofence.
+*   **Heat Index**: Sustained >40 C.
+*   **Air Quality**: AQI > 300 (Health Safety trigger).
+
+**Behavioral**
+*   **Active Hours Drop**: Deviation from simulation due to external bottlenecks.
+*   **Zone Inactivity**: Validated against regional demand drops.
+
+**System Triggers**
+*   **Demand Volatility**: Sudden drop in platform orders.
+*   **Platform Downtime**: Automated compensation for app outages.
+
+---
+
+## 7. AI/ML Integration
+
+### **Income Digital Twin**
 ![Income Flow Dashboard](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/dashboard.png)
 A real-time shadow simulation of your earning potential. Using historical data and current demand, it calculates exactly what you *should* be earning every minute.
+
+### **Risk Prediction Engine Engine**
+Multi-layered model analyzing weather APIs, thermal traffic maps, and historical disruption data to assign a "Stability Score" to every zone in the city.
+
+### **Preventive Intelligence**
+Not just a map, but a navigator. It pushes "Maximize Opportunity" notifications before you hit a low-demand slump.
+
+---
+
+## 8. Fraud Detection System
+
+**System Integrity Protection**
+
+**Geospatial Validation**
+Cross-referencing worker GPS data with active order heatmaps. If a worker is "inactive" but in a zone with high confirmed successful deliveries by others, the trigger is flagged.
+
+**Behavioral Anomaly Detection**
+Pattern analysis to detect "Fake Inactivity" where a worker goes offline intentionally to trigger payouts.
+
+**Cross-Verification**
+Validating environmental triggers (like rain) against a cluster of workers in the same 500m radius.
+
+---
+
+## Tech Architecture
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/architecture.svg" width="800" />
+</div>
 
 ---
 
@@ -104,6 +191,38 @@ We successfully built a **HUD (Heads-Up Display) experience** that feels less li
 ## What we learned
 
 Building IncomeOS taught us that **prevention is often more valuable than payout.** While the parametric payouts provide the ultimate fallback, the "Preventive Intelligence" (moving workers to safer or more productive zones before the storm hits) proved to be the more transformative feature for long-term worker health and efficiency.
+
+---
+
+## Development Plan (6 Weeks)
+
+**Phase 1: Foundation (Current)**
+*   Architecture blueprint and Core UI system.
+*   High-end dark dashboard and Income Flow visualization.
+*   Basic parametric logic.
+
+**Phase 2: Integration**
+*   Live weather API hookups (OpenWeather / WeatherStack).
+*   Dynamic premium calculation engine (Brier Score calibration).
+*   Automated claim triggering system.
+
+**Phase 3: Optimization**
+*   Advanced Fraud detection (GPS cluster analysis).
+*   Instant wallet payouts (UPI/Razorpay integration).
+*   Regional scaling (Multi-city support).
+
+---
+
+## Product Differentiation
+
+**Not Insurance. Intelligence.**
+Traditional insurance wants you to fail so they can pay. IncomeOS wants you to succeed so we can stabilize.
+
+**Not Reactive. Predictive.**
+We don't wait for your bank account to hit zero. We see the rain coming and move you—or pay you—before it happens.
+
+**Personalized Micro-Utility.**
+Every worker gets a unique "Stability Profile". No broad strokes.
 
 ---
 
