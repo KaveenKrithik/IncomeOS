@@ -1,21 +1,32 @@
-<svg width="600" height="100" viewBox="0 0 600 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="120" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes neonPulse {
-      0%, 100% { filter: drop-shadow(0 0 5px #2ac7ff) drop-shadow(0 0 10px #2ac7ff); }
-      50% { filter: drop-shadow(0 0 15px #2ac7ff) drop-shadow(0 0 25px #2ac7ff); }
+    @keyframes sleekReveal {
+      0% { opacity: 0; stroke-dashoffset: 500; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; stroke-dashoffset: 0; }
+    }
+    @keyframes quietGlow {
+      0%, 100% { filter: drop-shadow(0 0 2px rgba(42,199,255,0.3)); }
+      50% { filter: drop-shadow(0 0 8px rgba(42,199,255,0.6)); }
     }
     .title-text {
       font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
-      font-size: 60px;
-      letter-spacing: -2px;
-      fill: #2ac7ff;
-      animation: neonPulse 3s infinite ease-in-out;
-    }
-    .os-text {
+      font-size: 64px;
+      letter-spacing: -2.5px;
       fill: #ffffff;
-      opacity: 0.9;
+      animation: quietGlow 4s infinite ease-in-out;
+    }
+    .accent {
+      fill: #2ac7ff;
+    }
+    .scanning-line {
+      stroke: #2ac7ff;
+      stroke-width: 1;
+      opacity: 0.5;
+      animation: sleekReveal 2s forwards;
     }
   </style>
-  <text x="0" y="70" class="title-text">Income<tspan class="os-text">OS</tspan></text>
+  <text x="300" y="70" text-anchor="middle" class="title-text">Income<tspan class="accent">OS</tspan></text>
+  <path d="M 150 90 L 450 90" class="scanning-line" stroke-dasharray="300" />
 </svg>
