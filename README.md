@@ -108,9 +108,16 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 **Digital Flow Infrastructure**
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/flowchart.svg" width="600" />
-</div>
+```mermaid
+graph TD;
+    A[USER ONBOARDING] --> B[DIGITAL TWIN LEARNING];
+    B --> C[REAL-TIME MONITORING];
+    C --> D{DISRUPTION?};
+    D -- NO --> E[NORMAL STABILIZATION];
+    D -- YES --> F[PARAMETRIC TRIGGER];
+    F --> G[INSTANT WALLET PAYOUT];
+    G --> H[WEEKLY GOAL SYNC];
+```
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/workflow.svg" width="800" />
