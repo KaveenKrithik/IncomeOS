@@ -78,10 +78,10 @@ We treat a worker’s daily run as a data-driven operation. By viewing income th
 
 | FEATURE | TRADITIONAL | INCOMEOS |
 | :--- | :--- | :--- |
-| **Logic** | Reactive (Loss-based) | Predictive (Data-based) |
-| **Speed** | 3 - 30 Days Payout | Instant Parametric Trigger |
-| **Intelligence** | None | Real-time Digital Twin Simulation |
-| **Goal** | Compensation | Prevention + Stability |
+| **Logic** | Reactive (Loss-based) | **Predictive (Data-based)** |
+| **Speed** | 3 - 30 Days Payout | **Instant Parametric Trigger** |
+| **Intelligence** | None | **Real-time Digital Twin Simulation** |
+| **Goal** | Compensation | **Prevention + Stability** |
 
 ---
 
