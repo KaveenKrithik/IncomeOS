@@ -1,18 +1,21 @@
-# IncomeOS
-
 <div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/title.svg" width="500" />
+  
+  <br />
+
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/hero.png" width="800" />
   
   <br />
   
   <h3>ADAPTIVE INCOME INTELLIGENCE</h3>
+  <br />
   <p><strong>Predict. Prevent. Stabilize.</strong></p>
   
   <p align="center">
-    <a href="#-the-problem">Problem</a> • 
-    <a href="#-workflow">Workflow</a> • 
-    <a href="#-intelligence">AI Layer</a> • 
-    <a href="#-stability-wallet">Wallet</a>
+    <a href="#1-the-shift-in-thinking">Introduction</a> • 
+    <a href="#3-system-workflow">Workflow</a> • 
+    <a href="#4-core-engines">AI Layer</a> • 
+    <a href="#6-product-philosophy">Philosophy</a>
   </p>
   
   <hr />
@@ -25,7 +28,7 @@
 
 ---
 
-## 1. ⚡ The Shift in Thinking
+## 1. The Shift in Thinking
 
 Traditional systems are reactive. They wait for a loss, then process a claim. **IncomeOS is predictive.** We don't just calculate risk; we actively mitigate it before it happens.
 
@@ -38,7 +41,7 @@ Traditional systems are reactive. They wait for a loss, then process a claim. **
 
 ---
 
-## 2. 🗺️ Workforce Intelligence
+## 2. Workforce Intelligence
 
 ### **RAVI | DELIVERY PARTNER | CHENNAI S3**
 Ravi navigates one of the most volatile urban climates. Heatwaves and monsoons directly dictate his survival.
@@ -52,12 +55,12 @@ Trigger: >5mm/hr in Central Zone. Ravi stops for safety. Stablizer auto-compensa
 <details>
 <summary><b>PROTOCOL: HEATWAVE INDEX</b></summary>
 <br />
-Trigger: Temperature >42°C. Productivity drops. Shift recommendation pushed to Ravi for shaded "Profit Clusters".
+Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to Ravi for shaded "Profit Clusters".
 </details>
 
 ---
 
-## 3. 🌀 System Workflow
+## 3. System Workflow
 
 ```mermaid
 graph TD;
@@ -72,7 +75,7 @@ graph TD;
 
 ---
 
-## 4. 🧠 Core Engines
+## 4. Core Engines
 
 ### **Predictive Digital Twin**
 ![Income Flow Dashboard](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/dashboard.png)
@@ -84,21 +87,15 @@ Multi-layered model analyzing weather APIs, thermal traffic maps, and historical
 
 ---
 
-## 5. 🛠️ Tech Architecture
+## 5. Tech Architecture
 
-```
-[ FRONTEND HUD ]
-      ↓  (Framer Motion / Next.js 15)
-[ API GATEWAY ]
-      ↓  (FastAPI Intelligence Layer)
-[ DATA SYNC ] ↔ [ WEATHER / MAPS / PLATFORMS ]
-      ↓  (Parametric Logic)
-[ STABILIZER WALLET ] 
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/architecture.svg" width="800" />
+</div>
 
 ---
 
-## 6. 🚀 Product Philosophy
+## 6. Product Philosophy
 
 **Not Insurance. Intelligence.**
 Traditional insurance wants you to fail so they can pay. IncomeOS wants you to succeed so we can stabilize.
@@ -113,5 +110,5 @@ We don't wait for your bank account to hit zero. We see the rain coming and move
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/wallet.png" width="600" />
   <p><em>"IncomeOS transforms uncertainty into a controlled, intelligent system."</em></p>
   <hr />
-  <p>Built with ❤️ for the Gig Economy by Kaveen Krithik</p>
+  <p>Income Continuity Platform</p>
 </div>
