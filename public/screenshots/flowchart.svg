@@ -1,0 +1,49 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes flowPulse {
+      0% { stroke-opacity: 0.1; stroke-dashoffset: 100; }
+      50% { stroke-opacity: 0.8; }
+      100% { stroke-opacity: 0.1; stroke-dashoffset: 0; }
+    }
+    .node { fill: #0a0a0a; stroke: #2ac7ff; stroke-width: 1.5; }
+    .decision { fill: #0a0a0a; stroke: #8b5cf6; stroke-width: 2; }
+    .text { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 11px; fill: #ffffff; text-transform: uppercase; letter-spacing: 1px; }
+    .line { stroke: #2ac7ff; stroke-width: 1.5; opacity: 0.3; }
+    .flow { stroke: #2ac7ff; stroke-width: 2; stroke-dasharray: 10 20; animation: flowPulse 3s infinite linear; }
+  </style>
+
+  <!-- Flow path 1 (Vertical) -->
+  <line x1="300" y1="60" x2="300" y2="100" class="line" />
+  <line x1="300" y1="140" x2="300" y2="180" class="line" />
+  <line x1="300" y1="220" x2="300" y2="260" class="line" />
+  
+  <!-- Flow path 2 (Decision branches) -->
+  <path d="M 300 340 V 380" class="line" />
+  <path d="M 340 300 H 450 V 380" class="line" />
+  
+  <!-- Nodes -->
+  <rect x="225" y="20" width="150" height="40" rx="8" class="node" />
+  <text x="300" y="45" text-anchor="middle" class="text">Onboarding</text>
+  
+  <rect x="225" y="100" width="150" height="40" rx="8" class="node" />
+  <text x="300" y="125" text-anchor="middle" class="text">Twin Learning</text>
+
+  <rect x="225" y="180" width="150" height="40" rx="8" class="node" />
+  <text x="300" y="205" text-anchor="middle" class="text">Risk Monitoring</text>
+
+  <!-- Decision Node -->
+  <path d="M 300 260 L 340 300 L 300 340 L 260 300 Z" class="decision" />
+  <text x="300" y="305" text-anchor="middle" class="text" style="fill: #8b5cf6;">Disruption?</text>
+
+  <!-- Side Branch -->
+  <rect x="375" y="380" width="150" height="40" rx="8" class="node" style="stroke: #10b981;" />
+  <text x="450" y="405" text-anchor="middle" class="text" style="fill: #10b981;">Stabilize baseline</text>
+
+  <!-- Main Branch -->
+  <rect x="225" y="380" width="150" height="40" rx="8" class="node" style="stroke: #f43f5e;" />
+  <text x="300" y="405" text-anchor="middle" class="text" style="fill: #f43f5e;">Parametric Trigger</text>
+
+  <line x1="300" y1="420" x2="300" y2="460" class="line" />
+  <rect x="225" y="460" width="150" height="40" rx="8" class="node" />
+  <text x="300" y="485" text-anchor="middle" class="text">Payout &amp; Sync</text>
+</svg>

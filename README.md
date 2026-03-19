@@ -60,6 +60,12 @@ We engineered a HUD-style "Operating System" aesthetic using a high-performance 
 **Income Instability**
 Gig economy workers face extreme volatility. Earnings are not guaranteed. Every hour is a gamble against variables outside their control.
 
+**External Disruptions**
+Weather patterns, sudden city-wide curfews, demand drops, or local outages can wipe out a day's livelihood. There is no fallback.
+
+**Protection Gap**
+Traditional insurance is slow, reactive, and built for fixed jobs. It fails to address the micro-realities of a delivery partner or driver who needs stability NOW, not in 30 days.
+
 ---
 
 ## 2. The Shift in Thinking
@@ -100,16 +106,11 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 ## 4. System Workflow
 
-```mermaid
-graph TD;
-    A[USER ONBOARDING] --> B[DIGITAL TWIN LEARNING];
-    B --> C[REAL-TIME MONITORING];
-    C --> D{DISRUPTION?};
-    D -- NO --> E[NORMAL STABILIZATION];
-    D -- YES --> F[PARAMETRIC TRIGGER];
-    F --> G[INSTANT WALLET PAYOUT];
-    G --> H[WEEKLY GOAL SYNC];
-```
+**Digital Flow Infrastructure**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/flowchart.svg" width="600" />
+</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/workflow.svg" width="800" />
@@ -128,6 +129,7 @@ A minimal entry fee to keep the Intelligence Engine active.
 **Dynamic Risk Adjustment**
 *   **Location Risk**: Higher in flood-prone or high-traffic zones.
 *   **Weather Probability**: Adjusted based on 7-day meteorological forecasts.
+*   **Work Patterns**: Lower premiums for workers who follow AI-zone optimizations.
 
 ---
 
@@ -138,6 +140,15 @@ A minimal entry fee to keep the Intelligence Engine active.
 **Environmental**
 *   **Rainfall**: >5mm/hr in active geofence.
 *   **Heat Index**: Sustained >40 C.
+*   **Air Quality**: AQI > 300 (Health Safety trigger).
+
+**Behavioral**
+*   **Active Hours Drop**: Deviation from simulation due to external bottlenecks.
+*   **Zone Inactivity**: Validated against regional demand drops.
+
+**System Triggers**
+*   **Demand Volatility**: Sudden drop in platform orders.
+*   **Platform Downtime**: Automated compensation for app outages.
 
 ---
 
@@ -147,6 +158,12 @@ A minimal entry fee to keep the Intelligence Engine active.
 ![Income Flow Dashboard](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/dashboard.png)
 A real-time shadow simulation of your earning potential. Using historical data and current demand, it calculates exactly what you *should* be earning every minute.
 
+### **Risk Prediction Engine**
+Multi-layered model analyzing weather APIs, thermal traffic maps, and historical disruption data to assign a "Stability Score" to every zone in the city.
+
+### **Preventive Intelligence**
+Not just a map, but a navigator. It pushes "Maximize Opportunity" notifications before you hit a low-demand slump.
+
 ---
 
 ## 8. Fraud Detection System
@@ -155,6 +172,9 @@ A real-time shadow simulation of your earning potential. Using historical data a
 
 **Geospatial Validation**
 Cross-referencing worker GPS data with active order heatmaps. If a worker is "inactive" but in a zone with high confirmed successful deliveries by others, the trigger is flagged.
+
+**Behavioral Anomaly Detection**
+Pattern analysis to detect "Fake Inactivity" where a worker goes offline intentionally to trigger payouts.
 
 **Cross-Verification**
 Validating environmental triggers (like rain) against a cluster of workers in the same 500m radius.
@@ -178,6 +198,7 @@ Validating environmental triggers (like rain) against a cluster of workers in th
 Our AI-driven stability core (OS Core v1) assigns a **Stability Index** score based on consistency.
 *   **Threshold A (Balanced)**: Higher stability correlates to lower premiums.
 *   **Threshold B (High-Volatile)**: Aggressive stabilization for peak-surge zones.
+*   **Real-Time Multiplier**: We track supply/demand equilibrium to push "Shift Correction" alerts before earnings drops manifest.
 
 ---
 
@@ -186,6 +207,9 @@ Our AI-driven stability core (OS Core v1) assigns a **Stability Index** score ba
 **Parametric Transparency**
 All triggers are based on publicly verified data streams (e.g., global weather nodes, platform API status). There are no subjective humans in the decision loop.
 
+**Workforce Privacy**
+GPS data is sanitized into "Demand Clusters". We track systemic movements, not individual identities, ensuring worker privacy while maintaining grid intelligence.
+
 ---
 
 ## 12. Regional Scalability Protocol
@@ -193,6 +217,17 @@ All triggers are based on publicly verified data streams (e.g., global weather n
 IncomeOS scales parametrically to any urban landscape:
 *   **Chennai/Bangalore**: Flood and heatwave triggers prioritized.
 *   **Delhi/NCR**: AQI and pollution-based protection blocks.
+*   **Mumbai**: Monsoon-optimized zone intelligence.
+
+---
+
+## 13. Stakeholder Ecosystem
+
+**Driver-to-System Network**
+We exist at the intersection of three key entities:
+*   **The Gig Worker**: The primary end-node benefiting from stability.
+*   **The Ecosystem**: Partner delivery/ride-hailing platforms requiring consistent supply.
+*   **IncomeOS Intelligence**: The bridge that removes financial friction from atmospheric risk.
 
 ---
 
@@ -234,10 +269,12 @@ We don't wait for your bank account to hit zero. We see the rain coming and move
 **Phase 2: Integration**
 *   Live weather API hookups (OpenWeather / WeatherStack).
 *   Dynamic premium calculation engine (Brier Score calibration).
+*   Automated claim triggering system.
 
 **Phase 3: Optimization**
 *   Advanced Fraud detection (GPS cluster analysis).
 *   Instant wallet payouts (UPI/Razorpay integration).
+*   Regional scaling (Multi-city support).
 
 ---
 
@@ -245,6 +282,7 @@ We don't wait for your bank account to hit zero. We see the rain coming and move
 
 *   **Multi-City Expansion**: Tailoring the parametric triggers for Delhi (AQI filters) and Mumbai (High-tide alerts).
 *   **Platform Direct Sync**: Direct API integrations with major delivery and ride-hailing platforms to automate fraud detection.
+*   **Community Shield**: A collective stabilization pool where workers can co-fund regional protection blocks.
 
 ---
 
