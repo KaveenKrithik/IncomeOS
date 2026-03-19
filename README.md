@@ -64,7 +64,7 @@ Gig economy workers face extreme volatility. Earnings are not guaranteed. Every 
 Weather patterns, sudden city-wide curfews, demand drops, or local outages can wipe out a day's livelihood. There is no fallback.
 
 **Protection Gap**
-Traditional insurance is slow, reactive, and built for fixed jobs. It fails to address the micro-realities of a delivery partner who needs stability NOW, not in 30 days.
+Traditional insurance is slow, reactive, and built for fixed jobs. It fails to address the micro-realities of a delivery partner or driver who needs stability NOW, not in 30 days.
 
 ---
 
@@ -75,6 +75,13 @@ Traditional systems wait for a loss to happen. IncomeOS identifies the risk befo
 
 **Income as a Controllable System**
 We treat a worker’s daily run as a data-driven operation. By viewing income through the lens of a **Digital Twin**, we transform unpredictable risk into a managed, intelligent flow.
+
+| FEATURE | TRADITIONAL | INCOMEOS |
+| :--- | :--- | :--- |
+| **Logic** | Reactive (Loss-based) | Predictive (Data-based) |
+| **Speed** | 3 - 30 Days Payout | Instant Parametric Trigger |
+| **Intelligence** | None | Real-time Digital Twin Simulation |
+| **Goal** | Compensation | Prevention + Stability |
 
 ---
 
@@ -145,7 +152,7 @@ A minimal entry fee to keep the Intelligence Engine active.
 ![Income Flow Dashboard](https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/dashboard.png)
 A real-time shadow simulation of your earning potential. Using historical data and current demand, it calculates exactly what you *should* be earning every minute.
 
-### **Risk Prediction Engine Engine**
+### **Risk Prediction Engine**
 Multi-layered model analyzing weather APIs, thermal traffic maps, and historical disruption data to assign a "Stability Score" to every zone in the city.
 
 ### **Preventive Intelligence**
@@ -168,11 +175,53 @@ Validating environmental triggers (like rain) against a cluster of workers in th
 
 ---
 
-## Tech Architecture
+## 9. Tech Architecture
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/architecture.svg" width="800" />
 </div>
+
+---
+
+## 10. Earnings Optimization Index
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/sparkline.svg" width="400" />
+</div>
+
+Our AI-driven stability core (OS Core v1) assigns a **Stability Index** score based on consistency.
+*   **Threshold A (Balanced)**: Higher stability correlates to lower premiums.
+*   **Threshold B (High-Volatile)**: Aggressive stabilization for peak-surge zones.
+*   **Real-Time Multiplier**: We track supply/demand equilibrium to push "Shift Correction" alerts before earnings drops manifest.
+
+---
+
+## 11. System Integrity & Security
+
+**Parametric Transparency**
+All triggers are based on publicly verified data streams (e.g., global weather nodes, platform API status). There are no subjective humans in the decision loop.
+
+**Workforce Privacy**
+GPS data is sanitized into "Demand Clusters". We track systemic movements, not individual identities, ensuring worker privacy while maintaining grid intelligence.
+
+---
+
+## 12. Regional Scalability Protocol
+
+IncomeOS scales parametrically to any urban landscape:
+*   **Chennai/Bangalore**: Flood and heatwave triggers prioritized.
+*   **Delhi/NCR**: AQI and pollution-based protection blocks.
+*   **Mumbai**: Monsoon-optimized zone intelligence.
+
+---
+
+## 13. Stakeholder Ecosystem
+
+**Driver-to-System Network**
+We exist at the intersection of three key entities:
+*   **The Gig Worker**: The primary end-node benefiting from stability.
+*   **The Ecosystem**: Partner delivery/ride-hailing platforms requiring consistent supply.
+*   **IncomeOS Intelligence**: The bridge that removes financial friction from atmospheric risk.
 
 ---
 
@@ -194,6 +243,16 @@ Building IncomeOS taught us that **prevention is often more valuable than payout
 
 ---
 
+## Product Differentiation
+
+**Not Insurance. Intelligence.**
+Traditional insurance wants you to fail so they can pay. IncomeOS wants you to succeed so we can stabilize.
+
+**Not Reactive. Predictive.**
+We don't wait for your bank account to hit zero. We see the rain coming and move you—or pay you—before it happens.
+
+---
+
 ## Development Plan (6 Weeks)
 
 **Phase 1: Foundation (Current)**
@@ -210,19 +269,6 @@ Building IncomeOS taught us that **prevention is often more valuable than payout
 *   Advanced Fraud detection (GPS cluster analysis).
 *   Instant wallet payouts (UPI/Razorpay integration).
 *   Regional scaling (Multi-city support).
-
----
-
-## Product Differentiation
-
-**Not Insurance. Intelligence.**
-Traditional insurance wants you to fail so they can pay. IncomeOS wants you to succeed so we can stabilize.
-
-**Not Reactive. Predictive.**
-We don't wait for your bank account to hit zero. We see the rain coming and move you—or pay you—before it happens.
-
-**Personalized Micro-Utility.**
-Every worker gets a unique "Stability Profile". No broad strokes.
 
 ---
 
