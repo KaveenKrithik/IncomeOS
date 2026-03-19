@@ -106,6 +106,26 @@ Trigger: Temperature >42.0 C. Productivity drops. Shift recommendation pushed to
 
 ## 4. System Workflow
 
+**Digital Flow Infrastructure**
+
+```
+USER ONBOARDING
+  ↓
+INCOME LEARNING (Baseline Creation)
+  ↓
+RISK MONITORING (Weather + Demand + System)
+  ↓
+PREDICTION (Earnings Simulation)
+  ↓
+PREVENTIVE SUGGESTIONS (Zone Navigation)
+  ↓
+DISRUPTION DETECTION (Parametric Trigger)
+  ↓
+SMART COMPENSATION (Instant Payout)
+  ↓
+WEEKLY STABILIZATION
+```
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaveenKrithik/IncomeOS/main/public/screenshots/workflow.svg" width="800" />
 </div>
