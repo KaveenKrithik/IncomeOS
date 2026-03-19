@@ -1,32 +1,24 @@
-<svg width="600" height="120" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="100" viewBox="0 0 600 100" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @keyframes sleekReveal {
-      0% { opacity: 0; stroke-dashoffset: 500; }
-      50% { opacity: 0.5; }
-      100% { opacity: 1; stroke-dashoffset: 0; }
+    @keyframes sleekDraw {
+      0% { stroke-dashoffset: 600; opacity: 0; }
+      100% { stroke-dashoffset: 0; opacity: 1; }
     }
-    @keyframes quietGlow {
-      0%, 100% { filter: drop-shadow(0 0 2px rgba(42,199,255,0.3)); }
-      50% { filter: drop-shadow(0 0 8px rgba(42,199,255,0.6)); }
-    }
-    .title-text {
-      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      font-weight: 800;
-      font-size: 64px;
-      letter-spacing: -2.5px;
+    .text-path {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-weight: 900;
+      font-size: 72px;
+      letter-spacing: -3px;
       fill: #ffffff;
-      animation: quietGlow 4s infinite ease-in-out;
+      stroke: #ffffff;
+      stroke-width: 0.5;
+      stroke-dasharray: 600;
+      animation: sleekDraw 2.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     }
-    .accent {
+    .os-accent {
       fill: #2ac7ff;
-    }
-    .scanning-line {
       stroke: #2ac7ff;
-      stroke-width: 1;
-      opacity: 0.5;
-      animation: sleekReveal 2s forwards;
     }
   </style>
-  <text x="300" y="70" text-anchor="middle" class="title-text">Income<tspan class="accent">OS</tspan></text>
-  <path d="M 150 90 L 450 90" class="scanning-line" stroke-dasharray="300" />
+  <text x="300" y="75" text-anchor="middle" class="text-path">Income<tspan class="os-accent">OS</tspan></text>
 </svg>
